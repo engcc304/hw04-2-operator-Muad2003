@@ -12,23 +12,23 @@ int main() {
     //TODO: #12 Complete operator, and display all operator output. (and fix all bugs.)
 
     printf( "a = %d , b = %d \n", a, b ) ;
-    printf( "a + b = %d \n", a + b ) ;
-    printf( "a - b = %d \n", a - b ) ;
-    printf( "a * b = %d \n", a * b ) ;
+    printf( "a + b = %d\n", a + b ) ;
+    printf( "a - b = %d\n", a - b ) ;
+    printf( "a * b = %d\n", a * b ) ;
     printf( "a / b = %d (b must greater than 0)\n", b > 0 ? a : 0 ) ;
-    printf( "a %% b = %d \n", a % b ) ;
-    printf( "++a = %d \n", ++a ) ;
-    printf( "a-- = %d \n", a-- ) ;
-    printf( "a += 1 %d \n", a += 1 ) ;
-    printf( "a += b %d \n", a += b ) ;
-    printf( "a -= 1 %d \n", a -= 1 ) ;
-    printf( "a -= b %d \n", a -= b ) ;
-    printf( "a *= 1 %d \n", a *= 1 ) ;
-    printf( "a *= b %d \n", a *= b ) ;
-    printf( "a %%= 1 %d \n", a %= 1 ) ;
-    printf( "a %%= b %d \n", a %= b ) ;
-    printf( "a && b %d \n", a && b ) ;
-    printf( "a || b %d \n", a || b ) ;
+    printf( "a %% b = %d\n", a % b ) ;
+    printf( "++a = %d\n", ++a ) ;
+    printf( "a-- = %d\n", a-- ) ;
+    printf( "a += 1 %d\n", a += 1 ) ;
+    printf( "a += b %d\n", a += b ) ;
+    printf( "a -= 1 %d\n", a -= 1 ) ;
+    printf( "a -= b %d\n", a -= b ) ;
+    printf( "a *= 1 %d\n", a *= 1 ) ;
+    printf( "a *= b %d\n", a *= b ) ;
+    printf( "a %%= 1 %d\n", a %= 1 ) ;
+    printf( "a %%= b %d\n", a %= b ) ;
+    printf( "a && b %d\n", a && b ) ;
+    printf( "a || b %d\n", a || b ) ;
     
     return 0 ;
 
